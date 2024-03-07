@@ -5,12 +5,6 @@
 }
 
 
-/*body {
-	margin: 0px;
-	padding: 0px;
-	
-}*/
-
 .mainSection {
 	display: flex;
 }
@@ -48,7 +42,6 @@
 	padding-top: 25px;
 }
 
-/*MAIL PART START*/
 
 .mailPartMail {
 	display: flex;
@@ -60,7 +53,7 @@
 	padding-left: 10px;
 	cursor: pointer;
 	color: black;
-	/*padding-top: 3px;*/
+
 }
 
 .mailPartMail span {
@@ -71,18 +64,14 @@
 	font-size: 12px;
 	color: #1f1f1f;
 	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-	/*padding-t:7px;*/
+
 }
 
-/*MAIL PART END*/
-
-/*MAIL PART ICONS START*/
 
 .mailBelowIconsFirst {
 	display: flex;
 	flex-direction: column;
 	margin-top: 41px;
-	/*margin-left:10px;*/
 	cursor: pointer;
 	width: 34px;
 	height: 27px;
@@ -168,7 +157,6 @@
 	border-radius: 50px;
 	background-color: #eaf1fb;
 	height: 50px;
-
 	margin-top: 10px;
 	justify-content: space-between;
 	align-items: center;
@@ -249,7 +237,7 @@
 }
 
 .appsIcon {
-	/*padding: 7px;*/
+
 	color: #444746;
 	cursor: pointer;
 }
@@ -299,7 +287,6 @@
 }
 
 .composeButton {
-	/*margin-bottom:5px;*/
 	padding-left: 10px;
 	font-size: 14px;
 	cursor: pointer;
@@ -325,7 +312,6 @@
 	flex-direction: row;
 	width: 215px;
 	border-radius: 75px;
-	/*padding-left: 5px;*/
 	height: 30px;
 	background-color: #a8c7fa;
 	cursor: pointer;
@@ -549,11 +535,10 @@
 
 .headerMiddleRightIcons {
 	display: flex;
-	/*margin-top: 30px;*/
 	color: #444444;
 	margin-left: 31px;
 	align-items: center;
-	/*width: 150px;*/
+
 
 }
 
@@ -585,7 +570,7 @@
 .nextIcons {
 	display: flex;
 	align-items: center;
-	/*margin-left: 25px;*/
+
 }
 
 .nextIcons span {
@@ -602,7 +587,7 @@
 .headerMiddleSecondRight {
 	display: flex;
 	align-items: center;
-	/*margin-top: 21px;*/
+
 }
 
 .num {
@@ -612,8 +597,9 @@
 	font-size: 14px;
 	cursor: pointer;
 	padding: 10px;
-	/*height: 14px;
-	width: 65px;*/
+
+	width: 65px;
+	*/
 }
 
 .num:hover {
@@ -624,25 +610,19 @@
 
 .chevronLeft {
 	display: flex;
-	/*margin-top: 19px;
-	margin-left: 26px;*/
 	color: #5E5E5E;
 	font-size: 14px;
 	margin-right: 5px;
 }
 
 .chevronRight {
-	/*margin-top: 19px;
-	margin-left: 14px;*/
+
 	cursor: pointer;
 	align-items: center;
 	justify-content-center;
 	display: flex;
-	border-radius: 50%
-		/*height: 28px;
-	width: 26px;
-	padding-left: 4px;
-	padding-top:1px;*/
+	border-radius: 50%;
+
 }
 
 .chevronRight span {
@@ -659,7 +639,7 @@
 .bodySection {
 	background-color: #F2F6FC;
 	height: 526px;
-	/*margin-top: 25px;*/
+
 	overflow: scroll;
 	margin-left: 10px;
 
@@ -668,7 +648,7 @@
 
 .firstSection {
 	display: flex;
-	/*align-items: center;*/
+
 	height: 50px;
 	cursor: pointer;
 	border-bottom: 1px solid #dddd;
@@ -771,14 +751,14 @@
 }
 
 .line {
-	/*margin-left: 20px;*/
+
 	color: #E0E0E0;
 }
 
 .plusIcon {
-	/*margin-left: 18px;
-	width: 10px;*/
-	/*height: 10px;*/
+
+	width: 10px;
+	*/
 }
 
 .plusIcon img {
@@ -841,16 +821,9 @@
 		width: 500px;
 	}
 
-	.headerMiddleSecond {
-		/*width:100%;*/
-	}
 
 	.dates {
 		margin-top: 10px;
-	}
-
-	.userMessage {
-		/*width:323px;*/
 	}
 
 
@@ -895,9 +868,6 @@
 		margin-top: 10px;
 	}
 
-	.headerMiddleSecond {
-		/*width:100%;*/
-	}
 
 	.userMessage {
 		margin-left: 10px;
@@ -920,8 +890,6 @@
 	.headerMiddleLeft {
 		width: 172px;
 	}
-
-	.headerMiddleSecondRight {}
 
 
 }
@@ -966,9 +934,7 @@
 		display: none;
 	}
 
-	/*.headerMiddleContents{
-		display:flex;
-	}*/
+
 	.headerMiddleRight {
 		display: none;
 	}
@@ -994,7 +960,6 @@
 		height: 70px;
 	}
 
-	.headerMiddleContentzz {}
 
 	.searchBox {
 		width: 291%;
