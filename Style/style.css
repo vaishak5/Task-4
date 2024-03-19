@@ -1,0 +1,1178 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+
+.mainSection {
+	display: flex;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	height: 650px;
+	background-color: #eaf1fb;
+	padding-top: 25px;
+}
+
+.headerLeftIcons {
+	display: flex;
+	flex-direction: column;
+	padding-left: 7px;
+	color: #5f6368;
+}
+
+.headerMenu {
+	width: 23px;
+	height: 24px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.headerMenu:hover {
+	background-color: #D3D3D3;
+	border-radius: 50px;
+}
+
+.headerBelowIcons {
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+}
+
+
+.mailPartMail {
+	display: flex;
+	flex-direction: column;
+	border-radius: 35px;
+	background-color: #d3e3fd;
+	width: 36px;
+	height: 27px;
+	padding-left: 10px;
+	cursor: pointer;
+	color: black;
+
+}
+
+.mailPartMail span {
+	font-size: 23px;
+}
+
+.mailTxt {
+	font-size: 12px;
+	color: #1f1f1f;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+}
+
+
+.mailBelowIconsFirst {
+	display: flex;
+	flex-direction: column;
+	margin-top: 41px;
+	cursor: pointer;
+	width: 34px;
+	height: 27px;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+
+.mailBelowIconsFirst span {
+	font-size: 20px;
+	padding-left: 2px;
+}
+
+.mailBelowIconsFirst:hover {
+	border-radius: 35px;
+	background-color: #D3D3D3;
+
+}
+
+.chatTxt {
+	font-size: 12px;
+	color: #444746;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	padding-top: 5px;
+}
+
+.mailBelowIconsSecond {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	cursor: pointer;
+	padding-left: 10px;
+	height: 27px;
+	width: 34px;
+	padding-top: 7px;
+
+}
+
+.mailBelowIconsSecond span {
+	font-size: 20px;
+	padding-left: 3px;
+}
+
+.mailBelowIconsSecond:hover {
+	border-radius: 35px;
+	background-color: #D3D3D3;
+
+
+}
+
+.meetTxt {
+	font-size: 12px;
+	color: #444746;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+
+.headerMiddle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.headerMiddleContents {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.gmailLogo {
+	display: flex;
+	flex-direction: row;
+	height: 30px;
+	width: 110px;
+	padding-left: 10px;
+	padding-top: 28px;
+	cursor: pointer;
+}
+
+.searchBox {
+	display: flex;
+	width: 603px;
+	padding-left: 6px;
+	border-radius: 50px;
+	background-color: #eaf1fb;
+	height: 50px;
+	margin-top: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.searchBox input {
+	width: 100%;
+	border-style: none;
+	font-size: 16px;
+	padding: 15px;
+	border-radius: 25px;
+	outline: none;
+	background-color: #eaf1fb;
+	padding-left: 3px;
+
+}
+
+.searchIcon {
+	color: black;
+	margin-right: 1px;
+	margin-left: 4px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.searchIcon:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+
+}
+
+.tune {
+	color: black;
+	margin-right: 20px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.tune:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+
+}
+
+.rightIcons {
+
+	margin-top: 16px;
+	color: #444746;
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	padding-right: 19px;
+
+}
+
+.helpIcon {
+
+	color: #444746;
+	cursor: pointer;
+}
+
+.helpIcon:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+
+}
+
+.settingsIcon {
+
+	color: #444746;
+	cursor: pointer;
+}
+
+.settingsIcon:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+
+}
+
+.appsIcon {
+
+	color: #444746;
+	cursor: pointer;
+}
+
+.appsIcon:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+
+}
+
+.account {
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.headerMiddlePart {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.headerMiddleLeftContents {
+	display: flex;
+	flex-direction: row;
+	margin-top: 31px;
+	margin-left: 9px;
+	outline: none;
+	width: 118px;
+	align-items: center;
+	border-radius: 17px;
+	background-color: #c2e7ff;
+	font-weight: 500;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	cursor: pointer;
+	padding: 7px;
+	height: 43px;
+
+}
+
+.headerMiddleLeft span {
+
+	margin-left: 2px;
+	font-size: 24px;
+
+}
+
+.composeButton {
+	padding-left: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 500;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	color: #001D35;
+}
+
+.headerMiddleLeftIcons {
+	display: flex;
+	flex-direction: column;
+	padding-top: 8px;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+}
+
+.headerMiddleLeftContents:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inboxPart {
+	display: flex;
+	flex-direction: row;
+	width: 215px;
+	border-radius: 75px;
+	height: 30px;
+	background-color: #a8c7fa;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.inboxPart span {
+	margin-left: 10px;
+	font-size: 20px;
+	margin-top: 7px;
+	color: black;
+}
+
+.inboxTxt {
+	margin-left: 15px;
+	margin-top: 8px;
+	font-size: 14px;
+	color: #001D35;
+}
+
+.starredPart {
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	width: 215px;
+	height: 33px;
+	font-size: 14px;
+	margin-left: 5px;
+
+}
+
+.starredPart:hover {
+	border-radius: 50px;
+	background-color: #e6e6e6;
+
+
+}
+
+.starredPart span {
+	margin-left: 11px;
+	font-size: 20px;
+	margin-top: 7px;
+	color: #202124;
+}
+
+.starredPart p {
+
+	margin-top: 11px;
+	font-size: 14px;
+	padding-left: 14px;
+	color: #202124;
+
+}
+
+.snoozPart {
+	display: flex;
+	flex-direction: row;
+	width: 215px;
+	cursor: pointer;
+	height: 36px;
+	margin-left: 5px;
+}
+
+.snoozPart:hover {
+	border-radius: 50px;
+	background-color: #e6e6e6;
+
+
+}
+
+.snoozPart span {
+	margin-left: 11px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #202124;
+}
+
+.snoozTxt {
+	margin-left: 14px;
+	margin-top: 12px;
+	font-size: 14px;
+	color: #202124;
+}
+
+.sentPart {
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	width: 215px;
+	height: 36px;
+	margin-left: 5px;
+}
+
+.sentPart:hover {
+	border-radius: 50px;
+	background-color: #e6e6e6;
+
+
+}
+
+.sentPart span {
+	margin-left: 14px;
+	font-size: 20px;
+	margin-top: 6px;
+	color: #202124;
+}
+
+.sentTxt {
+	margin-left: 12px;
+	margin-top: 9px;
+	font-size: 14px;
+	color: #202124;
+}
+
+.draftsPart {
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	width: 215px;
+	height: 36px;
+	margin-left: 5px;
+}
+
+.draftsPart:hover {
+	border-radius: 50px;
+	background-color: #e6e6e6;
+
+
+}
+
+.draftsPart span {
+	margin-left: 14px;
+	font-size: 20px;
+	margin-top: 9px;
+	color: #202124;
+}
+
+.draftTxt {
+	margin-left: 12px;
+	margin-top: 12px;
+	font-size: 14px;
+	color: #202124;
+
+}
+
+.morePart {
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	width: 215px;
+	height: 36px;
+	margin-left: 5px;
+}
+
+.morePart:hover {
+	border-radius: 50px;
+	background-color: #e6e6e6;
+
+
+}
+
+.morePart span {
+	margin-left: 13px;
+	font-size: 20px;
+	margin-top: 11px;
+	color: #202124;
+}
+
+.moreTxt {
+	margin-left: 10px;
+	margin-top: 13px;
+	font-size: 14px;
+	color: #202124;
+}
+
+.labelPart {
+	display: flex;
+	flex-direction: row;
+	margin-left: 17px;
+	width: 198px;
+	margin-left: 22px;
+}
+
+.labelPart span {
+	margin-top: 8px;
+	margin-left: 100px;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 6px;
+	color: #5F6368;
+	height: 20px;
+	width: 20px;
+}
+
+.labelPart span:hover {
+	background-color: #D3D3D3;
+	border-radius: 100px;
+}
+
+.labelTxt {
+	font-size: 16px;
+	color: #1F1F1F;
+	font-weight: 500;
+	cursor: default;
+}
+
+.headerMiddleSecond {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.headerMiddleRight {
+	display: flex;
+	flex-direction: row;
+	height: 55px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerMiddleRightIcons {
+	display: flex;
+	color: #444444;
+	margin-left: 31px;
+	align-items: center;
+
+
+}
+
+.boxDrop {
+	display: flex;
+	cursor: pointer;
+
+}
+
+.boxDrop span {
+	font-size: 20px;
+	padding: 5px;
+	height: 18px;
+	width: 18px;
+	padding-left: 3px;
+}
+
+.box:hover {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.dropDown:hover {
+
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.nextIcons {
+	display: flex;
+	align-items: center;
+
+}
+
+.nextIcons span {
+	font-size: 20px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.dot:hover {
+	border-radius: 20px;
+	background-color: #f2f2f2;
+}
+
+.headerMiddleSecondRight {
+	display: flex;
+	align-items: center;
+
+}
+
+.num {
+	display: flex;
+	color: #5E5E5E;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 10px;
+
+	width: 65px;
+	*/
+}
+
+.num:hover {
+	background-color: #e6e6e6;
+	border-radius: 5px;
+
+}
+
+.chevronLeft {
+	display: flex;
+	color: #5E5E5E;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.chevronRight {
+
+	cursor: pointer;
+	align-items: center;
+	justify-content-center;
+	display: flex;
+	border-radius: 50%;
+
+}
+
+.chevronRight span {
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.chevronRight:hover {
+
+	background-color: #e6e6e6;
+
+}
+
+.bodySection {
+	background-color: #F2F6FC;
+	height: 526px;
+
+	overflow: scroll;
+	margin-left: 10px;
+
+
+}
+
+.firstSection {
+	display: flex;
+
+	height: 50px;
+	cursor: pointer;
+	border-bottom: 1px solid #dddd;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.mailIcons {
+	display: flex;
+	align-items: center;
+	margin-left: 17px;
+}
+
+.mailIcons .material-symbols-outlined {
+	margin: 5px;
+	font-size: 20px;
+	color: #cfcfd1;
+
+}
+
+.mailIcons .material-symbols-outlined {
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.mailIcons .material-symbols-outlined:hover {
+	background-color: #e6e6e6;
+
+	color: black;
+
+}
+
+.firstSection:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-bottom: 1px solid #dddd;
+}
+
+.senderName {
+	font-size: 14px;
+	color: #202124;
+	font-weight: 300;
+	margin-top: 21px;
+	padding-left: 5px;
+	width: 110px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+.userMessage {
+	display: flex;
+	flex: auto;
+	align-items: center;
+	font-size: 14px;
+	margin-left: 71px;
+	color: #202124;
+	padding-top: 9px;
+
+
+}
+
+.userMessage .msg {
+	width: 580px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+
+}
+
+.dates {
+	margin-right: 20px;
+	font-size: 12px;
+	color: #5F6368;
+	padding-top: 14px;
+
+}
+
+.headerMiddleEndIcons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 25px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
+.headerMiddleEndIconsFirst:hover {
+	border-radius: 25px;
+	background-color: #E0E0E0;
+
+}
+
+.headerMiddleEndIcons img {
+	width: 20px;
+	height: 20px;
+	padding: 10px 8px 6px 10px;
+
+}
+
+.line {
+
+	color: #E0E0E0;
+}
+
+.plusIcon {
+
+	width: 10px;
+	*/
+}
+
+.plusIcon img {
+	margin-top: 30px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.plusIcon img:hover {
+	border-radius: 50px;
+	background-color: #E0E0E0;
+
+}
+
+.headerMiddleContentzz {
+	display: flex;
+	gap: 109px;
+}
+
+.headerMiddleEnd {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+@media (max-width:1024px) {
+
+	body {
+		width: 100%;
+	}
+
+	.headerMiddleEndIcons {
+		display: none;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.plusIcon {
+		display: none;
+	}
+
+	.firstSection {
+		height: 50px;
+
+	}
+
+	.userMessage {
+		width: 50px;
+	}
+
+	.headerMiddleContentzz {
+		display: flex;
+		gap: 109px;
+	}
+
+	.searchBox {
+		width: 500px;
+	}
+
+
+	.dates {
+		margin-top: 10px;
+	}
+
+
+}
+
+
+@media (max-width:1023px) and (min-width:768px) {
+	body {
+		width: 100%;
+	}
+
+	.headerMiddleEndIcons {
+		display: none;
+	}
+
+	.headerBelowIcons {
+		display: none;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.plusIcon {
+		display: none;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.searchBox {
+		width: 350px;
+	}
+
+	.rightIcons {
+
+		gap: 18px;
+	}
+
+	.dates {
+		margin-top: 10px;
+	}
+
+
+	.userMessage {
+		margin-left: 10px;
+	}
+
+	.headerMiddleRight {
+		display: flex;
+
+	}
+
+	.inboxPart {
+		width: 170px;
+	}
+
+	.headerMiddleContentzz {
+		display: flex;
+		gap: 70px;
+	}
+
+	.headerMiddleLeft {
+		width: 172px;
+	}
+
+
+}
+
+@media (max-width:767px) and (min-width:425px) {
+
+	body {
+		width: 293%;
+	}
+
+	.mainSection {
+		width: 97%;
+	}
+
+	.gmailLogo img {
+		display: none;
+	}
+
+	.headerMiddleLeft {
+		display: none;
+	}
+
+	.headerLeftIcons {
+		display: none;
+	}
+
+	.headerMiddleContents {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.rightIcons span {
+		display: none;
+	}
+
+	.searchB {
+		width: 357px;
+
+	}
+
+	.gmailLogo img {
+		display: none;
+	}
+
+
+	.headerMiddleRight {
+		display: none;
+	}
+
+	.headerMiddlePart {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.firstSection h3 {
+		display: none;
+	}
+
+	.userMessage {
+		margin-left: 3px;
+		font-size: 30px;
+	}
+
+	.rightIcons img {
+		margin-left: 740px;
+		margin-right: 14px;
+		width: 70px;
+		height: 70px;
+	}
+
+
+	.searchBox {
+		width: 291%;
+		height: 85px;
+	}
+
+	.headerMiddle {
+		width: 100%;
+	}
+
+	.searchBox input {
+		font-size: 35px;
+	}
+
+	.searchBox span {
+		font-size: 40px;
+	}
+
+	.firstSection {
+		height: 70px;
+		font-size: 35px;
+	}
+
+	.bodySection {
+		height: 750px;
+	}
+
+	.dates span {
+		font-size: 25px;
+	}
+
+	.mailIcons .material-symbols-outlined {
+		font-size: 30px;
+
+	}
+
+}
+
+@media (max-width:424px) and (min-width:375px) {
+	body {
+		width: 207%;
+	}
+
+	.mainSection {
+		width: 99%;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.headerMiddleLeft {
+		display: none;
+	}
+
+	.headerMiddleRight {
+		display: none;
+	}
+
+	.gmailLogo img {
+		display: none;
+	}
+
+	.rightIcons span {
+		display: none;
+	}
+
+	.boxIcon {
+		display: none;
+	}
+
+	.searchBox {
+		width: 254%;
+		height: 85px;
+	}
+
+	.searchBox input {
+		font-size: 35px;
+	}
+
+	.searchBox span {
+		font-size: 40px;
+	}
+
+	.rightIcons img {
+		margin-left: 440px;
+		margin-right: 14px;
+		width: 70px;
+		height: 70px;
+	}
+
+	.firstSection {
+		height: 70px;
+		font-size: 35px;
+	}
+
+	.bodySection {
+		height: 750px;
+	}
+
+	.dates span {
+		font-size: 25px;
+	}
+
+	.headerMiddleContents {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.mailIcons .material-symbols-outlined {
+		font-size: 30px;
+
+	}
+
+	.firstSection h3 {
+		display: none;
+	}
+
+	.userMessage {
+		margin-left: 3px;
+		font-size: 30px;
+	}
+
+	.headerMiddlePart {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width:374px) and (min-width:320px) {
+	body {
+		width: 291%;
+	}
+
+	.mainSection {
+		width: 100%;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.headerMiddleLeft {
+		display: none;
+	}
+
+	.headerMiddleRight {
+		display: none;
+	}
+
+	.gmailLogo img {
+		display: none;
+	}
+
+	.rightIcons span {
+		display: none;
+	}
+
+	.boxIcon {
+		display: none;
+	}
+
+	.userMessage {
+		margin-left: 3px;
+		font-size: 30px;
+	}
+
+	.starIcon {
+		display: none;
+	}
+
+	.firstSection h3 {
+		display: none;
+	}
+
+	.searchBox {
+		width: 337%;
+		height: 85px;
+	}
+
+	.searchBox input {
+		font-size: 35px;
+	}
+
+	.searchBox span {
+		font-size: 40px;
+	}
+
+	.rightIcons img {
+		margin-left: 597px;
+		margin-right: 14px;
+		width: 70px;
+		height: 70px;
+	}
+
+	.firstSection {
+		height: 70px;
+		font-size: 35px;
+	}
+
+	.bodySection {
+		height: 800px;
+	}
+
+	.dates span {
+		font-size: 25px;
+	}
+
+	.headerMiddleContents {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.headerMiddlePart {
+		margin-top: 10px;
+	}
+}
